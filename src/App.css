@@ -1,0 +1,308 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: aliceblue;
+}
+
+.navbar {
+  width: 100%;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  background-color: #282c34;
+  position: fixed;
+}
+
+.icon-bar {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.menu-items {
+  text-align: center;
+  padding: 10px 15px;
+  font-size: 130%;
+  transition: 00.5s;
+}
+.menu-items:hover {
+  background-color: rgb(231, 75, 48);
+}
+
+.Container {
+  text-align: center;
+}
+
+.target {
+  height: calc(100vh - 70px);
+  border: 2px solid black;
+}
+
+div.head h1 {
+  color: aliceblue;
+}
+
+.head {
+  margin-top: 10%;
+  text-align: center;
+
+}
+
+#target1 {
+  background-image: url(NIT-Kurukshetra.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  background-blend-mode: darken;
+}
+
+.head button {
+  background-color: tomato;
+  height: 50px;
+  width: 100px;
+  font-size: 15px;
+  color: antiquewhite;
+  border-radius: 10px;
+  border: 0px;
+}
+
+.head button:hover{
+  background-color: rgb(197, 60, 36);
+}
+
+#target3 {
+  height: fit-content;
+}
+
+.event-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.events {
+  border: 1px solid black;
+  height: 400px;
+  width: 15%;
+  margin: 10px;
+  border-radius: 10px;   
+  /* transition: 0.5s; */
+  display: flex;
+  /* justify-content: center; */
+  flex-direction: column;
+  /* padding-top: 10px; */
+  /* padding-left: 10px;
+  padding-right: 10px; */
+}
+
+.event-box {
+  border: 1px solid black;
+  width: 150px;
+  height: 250px;
+  margin: 20px;
+  border-radius: 10px; 
+  transition: 0.5s;
+}
+div.events p {
+  color:#282c34;
+}
+
+div.event-box:hover {
+  box-shadow: 0 0 3px black;
+  /* margin-top: -1px; */
+  background-color: rgb(197, 60, 36);
+  color: aliceblue;
+}
+
+#target5 {
+  height: fit-content;
+}
+
+.contacts-container {
+  display: flex;
+  justify-content: center;
+
+}
+
+.sub-contact-box {
+  border: 2px solid black;
+  height: 165px;
+  width: 196px;
+  margin: 10px;
+}
+
+div.sub-address-box p{
+  color: #282c34;
+  margin-top: 10px;
+}
+div.sub-contact-box p {
+  color: #282c34;
+  margin-top: 10px;
+}
+
+.sub-address-box {
+  border: 2px solid black;
+  height: 165px;
+  width: 422px;
+  margin: 10px;
+}
+
+.map {
+  border: 2px solid black;
+  height: 330px;
+  width: 860px;
+  margin: 10px;
+}
+
+/* Teams sliding Cards */
+
+.slide-container {
+  display: flex;
+  justify-content: center;
+  border: 1px solid black;
+}
+
+div.card-image {
+  border: 1px solid black;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  
+}
+
+
+/* Contributors components styles */
+
+#target7 {
+  height: fit-content;
+  background-color: #282828;
+}
+
+.contri-flex-box {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.social-w-heading {
+  /* border: 1px solid black; */
+  width: 40%;
+  height: 241px;
+  border-top: 4px solid tomato;
+  background-color: #123644;
+  padding: 30px 80px;
+}
+div.social-w-heading h1,p {
+  color: #faebd7;
+}
+.social-media-circle {
+  border: none;
+  width: 30px;
+  height: 30px;
+  background-color: #282828;
+  color: #faebd7;
+  border-radius: 50%;
+  margin: 15px;
+  transition: 00.5s;
+  cursor: pointer;
+}
+button.social-media-circle:hover {
+  background-color:rgb(197, 60, 36);
+}
+
+.email-flex-box {
+  display: flex;
+  flex-direction: row;
+}
+div.email-box h4 {
+  margin-bottom: 15px;
+}
+div.email-box p {
+  margin-bottom: 15px;
+}
+.email-box {
+  /* border: 1px solid black; */
+  width: 30%;
+}
+div.email-box h4 {
+  color: #faebd7;
+}
+.subscribe {
+  background-color: rgb(197, 60, 36);
+  padding: 10px 20px;
+  width: fit-content;
+  height: 40px;
+  transition: 00.5s;
+  cursor: pointer;
+  color: #faebd7;
+}
+.subscribe:hover {
+  background-color: rgb(113, 25, 9);
+} 
+div.email-flex-box input {
+  outline: none;
+  border: none;
+  width: 100%;
+  padding: 0 8px;
+  height: 40px;
+}
+
+.mini-navlinks {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 10px;
+}
+.mini-navbar {
+  padding: 10px;
+  transition: 00.5s;
+} 
+div.mini-navbar:hover {
+  background-color: rgb(197, 60, 36);
+}
